@@ -14,10 +14,15 @@ The cart has items, and the items have a product, a count (of the number of prod
 The Cart object exports the following methods.
 
 getItems(), // returns all items in the cart
+
 hasProduct(product), // checks if cart contains an item with this product by id return Boolean 
+
 addItem(product), // adds a product or increment the item count
+
 removeItem(product), // decrement the count of the item containing the product or removes it.
+
 removeProduct(product), // removes the item that contains the product 
+
 getItem(product), // get an item containing the product or null otherwise
 getTotal(), // returns the total of all items in the cart.
 clearCart(), // removes all items
